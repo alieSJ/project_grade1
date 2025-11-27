@@ -399,7 +399,7 @@ int main() {
         string gtext = "Gesture: " + gestureTypeToString(gesture);
         string ctext = "Confidence: " + to_string(confidence);
 
-        putText(canvas, "Hand Gesture Recognition (C++ MLP)",
+        putText(canvas, "Hand Gesture Recognition ",
                 Point(20, 40), FONT_HERSHEY_SIMPLEX, 0.8,
                 Scalar(0, 255, 255), 2);
 
